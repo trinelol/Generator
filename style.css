@@ -1,0 +1,123 @@
+/*********************
+GLOBAL
+*********************/
+
+
+body {
+  background-color: #98B1C4;
+}
+
+.wrapper {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+
+/*********************
+TEKST
+*********************/
+
+
+h1, h2 {
+  text-align: center;
+  text-shadow: 1px 1px #2F4E6F;
+  color: #C8D7E3;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+
+/*********************
+LAYOUT HEADER
+*********************/
+
+/*********************
+LAYOUT CONTENT
+*********************/
+
+
+.container {
+  border: 2px solid #2F4E6F;
+  border-radius: 25px;
+  width: 900px;
+  height: 300px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #cccccc;
+  padding-top: 0px;
+  color: #2F4E6F;
+  font-size: 30px;
+  text-shadow: 1px 1px #000000;
+}
+
+.button {
+  width: 400px;
+  margin: auto;
+  display: block;
+  font-size: 25px;
+  background-color: #cccccc;
+  color: #2F4E6F;
+  border-color: #2F4E6F;
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: #C8D7E3;
+}
+
+/*********************
+LAYOUT FOOTER
+*********************/
+
+
+footer {
+  background-color: #C8D7E3;
+  text-align: center;
+  padding:15px 300px 35px 300px;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: #2F4E6F;
+  color: #FF6000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hover img {
+  border-radius: 12%;
+  width: 50px;
+}
+
+.hover a{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.hover a:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
+
+.bilde {
+  float: left;
+}
+
+.linkedin {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/*********************
+CODE.HTML
+*********************/
+
+
+.code a {
+width: 1000px;
+}
